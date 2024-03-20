@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  justify-content: space-between;
+  width: 20%;
+  height: 734px;
+}
+
+.title {
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  color: darkgray;
+  text-decoration: underline yellow;
+}
+
+.sidebar-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.sidebar-btns button {
+  width: 70%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+.unused {
+  align-self: center;
+  align-content: end;
+}
+
+.menu {
+  background-color: white;
+  width: 80%;
+}
